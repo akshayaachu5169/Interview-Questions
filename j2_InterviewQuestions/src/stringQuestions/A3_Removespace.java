@@ -7,16 +7,20 @@ public static void main(String[] args) {
 //System.out.println(trimmedString); trims only front and back space
 	
 	//method 1
-	String trimmedString=	a.replaceAll("\\s", "");
-	System.out.println(trimmedString);
+//	String trimmedString=	a.replaceAll("\\s", "");
+//	System.out.println(trimmedString);
 	
 	//method 2 
 	
-//	String []b = a.split("\\s");
-//	System.out.println(b[0]+b[1]+b[2]);
+	String []b = a.split("\\s");
+	System.out.println(b[0]+b[1]+b[2]+b[3]);
 //	for(int i=0;i<b.length;i++) {
 //		System.out.print(b[i]);
 //	}
+	
+	//method 3
+//	String strip =a.stripTrailing();//removes only backspaceS
+//	System.out.println(strip);
 }
 	
 	
